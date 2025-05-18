@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/ESTUDOS/NextJS/first-nextjs-app/src/app/layout.tsx"],"sourcesContent":["// app/layout.tsx\r\nimport Sidebar from '..//components/sideBar';\r\nimport './globals.css'; // se tiver estilos globais\r\n\r\nexport const metadata = {\r\n  title: 'Minha App',\r\n};\r\n\r\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <html lang=\"pt-BR\">\r\n      <body>\r\n        <div className=\"flex\">\r\n          <Sidebar />\r\n          <main className=\"flex-1 p-6\">{children}</main>\r\n        </div>\r\n      </body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,iBAAiB;;;;;;;;;;;;;;AAIV,MAAM,WAAW;IACtB,OAAO;AACT;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;sBACC,cAAA,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;;;;;kCACD,8OAAC;wBAAK,WAAU;kCAAc;;;;;;;;;;;;;;;;;;;;;;AAKxC","debugId":null}},
+    {"offset": {"line": 66, "column": 0}, "map": {"version":3,"sources":["file:///C:/ESTUDOS/NextJS/first-nextjs-app/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}
